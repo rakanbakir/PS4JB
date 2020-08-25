@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  ps4jb-6.72:
+    build: ./
+    restart: always
+    ports:
+      - 8770:80
